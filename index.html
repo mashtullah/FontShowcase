@@ -1,0 +1,66 @@
+<html>
+  <head>
+  <title>Font Tool Bounty</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine|Arbutus|Aref+Ruqaa|Arizonia|Bahiana|Bentham|Bungee|Cairo|Faster+One|Gloria+Hallelujah|IBM+Plex+Mono:400i|IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:100,100i,400|IM+Fell+DW+Pica|IM+Fell+Great+Primer+SC|Mirza|Montserrat+Alternates|Moul|Noto+Sans+SC|Noto+Sans+TC|Oxygen+Mono|Proza+Libre|Righteous|Roboto|Saira+Extra+Condensed|Signika|Taviraj">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
+    <style>
+    .a0{font-family:'Arbutus';}
+    .a1{font-family:'Aref Ruqaa';}
+    .a2{font-family:'Arizonia';}
+    .b0{font-family:'Bahiana';}
+    .b1{font-family:'Bentham';}
+    .b2{font-family:'Bungee';}
+    .c0{font-family:'Cairo';}
+    .f0{font-family:'Faster One';}
+    .g0{font-family:'Gloria Hallelujah';}
+    .i0{font-family:'Oxygen Mono';}
+    .i1{font-family:'Roboto';}
+    .i2{font-family:'Taviraj';}
+    .i3{font-family:'IM Fell DW Pica';}
+    .i4{font-family:'IM Fell Great Primer SC';}
+    .m0{font-family:'Mirza';}
+    .m1{font-family:'Montserrat Alternates';}
+    .m2{font-family:'Moul';}
+    .n0{font-family:'Noto Sans SC';}
+    .t{font-family: 'Tangerine';}
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+    <h4 class="mb-3">Font Tool</h4>
+    <label for="sampletext">Sample Text</label>
+    <input type="text" class="form-control" id="sampletext" placeholder="Enter Sample Text...">
+    <hr class="mb-4">
+    <div class="container rounded border border-success">
+      <div class='a0 sampletext'></div>
+      <div class='a1 sampletext'></div>
+      <div class='a2 sampletext'></div>
+      <div class='t sampletext'></div>
+      <div class='b0 sampletext'></div>
+      <div class='b1 sampletext'></div>
+      <div class='b2 sampletext'></div>
+      <div class='c0 sampletext'></div>
+      <div class='f0 sampletext'></div>
+      <div class='g0 sampletext'></div>
+      <div class='i0 sampletext'></div>
+      <div class='i1 sampletext'></div>
+      <div class='i2 sampletext'></div>
+      <div class='i3 sampletext'></div>
+      <div class='i4 sampletext'></div>
+      <div class='m0 sampletext'></div>
+      <div class='m1 sampletext'></div>
+      <div class='m2 sampletext'></div>
+      <div class='n0 sampletext'></div>
+    </div>
+    </div>
+    By Mashtullah....
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script>
+
+  $( "#sampletext" ).keyup(function() {
+  $(".sampletext" ).html($('#sampletext').val());
+});
+</html>
